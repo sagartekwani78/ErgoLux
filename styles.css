@@ -1,0 +1,63 @@
+/* General Body Styles */
+body {
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+    font-family: Arial, sans-serif;
+}
+
+/* Silver Color */
+.text-silver {
+    color: #c0c0c0; /* Silver color */
+}
+
+/* Header and Footer Styles */
+header, footer {
+    background-color: #000000; /* Black background */
+}
+
+/* Button Styles */
+.btn-primary {
+    background-color: #c0c0c0; /* Silver button */
+    border-color: #c0c0c0;
+    color: #000000; /* Black text */
+}
+
+.btn-primary:hover {
+    background-color: #ffffff; /* White button on hover */
+    color: #000000;
+}
+
+.btn-outline-light {
+    border-color: #c0c0c0;
+    color: #c0c0c0; /* Silver text */
+}
+
+.btn-outline-light:hover {
+    background-color: #c0c0c0;
+    color: #000000;
+}
+
+/* Image Styles */
+img {
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Add padding between sections */
+.row.mb-5 {
+    margin-bottom: 40px;
+}
+
+/* Adjust button alignment and spacing for multiple products */
+.buy-now-btn {
+    margin-top: 10px;
+}
+
+/* Style the price for better visibility */
+h4 {
+    font-size: 1.2em;
+    color: #c0c0c0;
+    font-weight: bold;
+}
